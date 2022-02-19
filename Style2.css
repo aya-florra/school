@@ -1,0 +1,1099 @@
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+#log{
+    text-align: center;
+}
+
+nav{
+    background-color: dodgerblue;
+    z-index: 4;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+footer{
+    background-color: dodgerblue;
+}
+.container1{
+     margin-left: 17em;
+    float: inherit;
+    width:70%;
+    padding-top:5%;
+   text-align:center;
+}
+
+.text4 img{
+    padding-top:6%;
+    margin-left: 40%;
+}
+.text4 {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+   
+    color: black;
+    background-color: #91c2a2;
+    width: 100%;
+    height: 600px;
+    text-align: left;
+}
+    .text4 ul {
+        margin-left: 23%;
+        letter-spacing: 4px;
+    }
+    .text4 h2 {
+        margin-left: 0.5em;
+        margin-top: 0.5em;
+        ;
+    }
+.text5 {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 27px;
+    color: black;
+    background-color: #9bbf56;
+    width: 100%;
+    height: 600px;
+    text-align: left;
+}
+.text5 ul {
+    margin-top: 5%;
+    margin-left: 30%;
+    letter-spacing: 4px;
+}
+    .text5 h2 {
+        margin-left: 0.5em;
+        margin-top: 0.5em;
+    }
+.text5 img {
+    padding-top: 6%;
+    margin-left: 40%;
+}
+.text6 {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color: black;
+    background-color: #56868f;
+    width: 100%;
+    height: 600px;
+    text-align: left;
+}
+.text6 img {
+    padding-top: 6%;
+    margin-left: 40%;
+}
+.text6 ul {
+    margin-left: 23%;
+    letter-spacing: 4px;
+}
+
+.text6 h2 {
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+}
+
+.section {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+span h1 {
+    font-size: 100px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+.programs {
+    margin-top: 5%;
+    text-align: center;
+    display: contents;
+}
+figure {
+  
+    margin: 20px 20px;
+    padding: 0;
+  
+}
+.image{
+    text-align:center;
+}
+    figure.image {
+        display: inline-block;
+        position: relative;
+        text-align:center;
+    }
+
+    figure img {
+        display: block;
+        height: auto;
+        max-width: 100%;
+        border-radius: 12px 12px 0 0;
+    }
+
+figcaption {
+    background: rgba(2, 110, 252, 0.25);
+    color: black;
+    padding: .2em 0;
+    position: absolute;
+    top: 300px;
+    text-align: center;
+    width: 100%;
+    height: 350px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+    figcaption h1{
+        padding-right:20px;
+    }
+    figcaption span {
+        font-size: 25px;
+    }
+    figcaption p {
+        padding-left: 33px;
+        text-align: left;
+        font-size: 22px;
+        width: 90%;
+        font-family: 'Trebuchet MS', sans-serif;
+        font-weight: lighter;
+    }
+.text1 h1 {
+    padding-left: 20px;
+    font-size: 37px;
+}
+    .text2 h1{
+        padding-right: 45px;
+    }
+.text3 h1 {
+    padding-right: 170px;
+}
+.text3 p {
+  font-size:19px;
+}
+#myBtn {
+    width: 50%;
+    height: 15%;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: black;
+    background: yellow;
+    border: hidden;
+    font-size: 20px;
+    border-radius: 12px;
+    margin-left: 30px;
+    margin-right: auto;
+    display: block;
+    margin-top: 12%;
+    margin-bottom: 0;
+}
+#myBtn1 {
+    width: 50%;
+    height: 15%;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: black;
+    background: yellow;
+    border: hidden;
+    font-size: 20px;
+    border-radius: 12px;
+    margin-left: 30px;
+    margin-right: auto;
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#myBtn2 {
+    width: 50%;
+    height: 15%;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: black;
+    background: yellow;
+    border: hidden;
+    font-size: 20px;
+    border-radius: 12px;
+    margin-left: 30px;
+    margin-right: auto;
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.conditions {
+    margin: 400px 0 50px 0;
+    text-align: center;
+    max-width: 2000px;
+    height: 1360px;
+    padding-top: 10px;
+    background-image: url('bg.jpeg');
+   background-size:cover;
+   background-repeat:no-repeat;
+
+}
+#head h1 {
+    max-width: 100%;
+    font-size: 100px;
+    color: white;
+    text-shadow: initial;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+    
+.Box1, .Box2, .Box3 {
+    /* width: 400px; */
+    height: 218px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    display: inline-block;
+    position: relative;
+    margin: 30px 30px;
+    padding: 0;
+
+
+}
+.Box1{
+   top: 15px;
+}
+.conditions h1, h2 {
+    font-family: 'Trebuchet MS', sans-serif;
+    max-width:90%;
+    text-align: center;
+}
+.conditions p {
+    font-size: 30px;
+    text-align: left;
+    padding-left: 40px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+.costext{
+    bottom:900px;
+}
+.cost {
+    padding-bottom: 120px;
+    text-align: center;
+    max-width: 2000px;
+    height:1000px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+.cost1, .cost2 {
+    width: 600px;
+    height: 120px;
+    background: blue;
+    color: #f1f1f1;
+    display: inline-block;
+    position: relative;
+    margin: 30px 30px;
+    padding: 0;
+}
+#head1 h1{
+    font-size:80px;
+}
+#head1 p {
+    font-size: 30px;
+}
+.cost2 {
+    background: red;
+ 
+}
+.cost12, .cost22 {
+    width: 597px;
+    height: 450px;
+    background: white;
+  
+}
+.cost12, .cost22 p {
+    color: black;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+.cost22 p{
+    color:black;
+}
+.costext {
+    top: 400px;
+}
+footer {
+    background-color: dodgerblue;
+    color: white;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+}
+section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  
+}
+
+.card-effect {
+    box-shadow: 5px 10px #d1d1e0;
+    background-color: #fff;
+    padding: 25px;
+    transition: all 0.35s ease;
+}
+
+    .card-effect:hover {
+        box-shadow: none;
+        transform: translateY(5px);
+    }
+
+.iconbox {
+    width: 54px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    color: #fff;
+    font-size: 32px;
+    border-radius: 100px;
+    flex: none;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+
+.service {
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+
+}
+#contact {
+    background-image: url("04.jpg");
+    background-size:cover;
+    background-repeat: no-repeat ;
+    
+}
+#contact h1{
+    color: white;
+}
+
+    .service::after {
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: -100%;
+        left: 0;
+        z-index: -1;
+        opacity: 0;
+        transition: all 0.4s ease;
+    }
+
+
+    .service:hover .iconbox {
+        background-color: var(--white);
+        color: blue;
+    }
+
+    .service:hover h5,
+    .service:hover p {
+        color: var(--white);
+        ;
+    }
+
+    .service:hover::after {
+        opacity: 1;
+        top: 0;
+    }
+form input.form-control {
+    height: 56px;
+
+  
+}
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: darkblue;
+}
+
+.logo{
+    width: 75% !important;
+    height: 2em;
+}
+    li{
+        padding-left: 10px;
+    }
+    #head h1{
+        font-size: 80px;
+    }
+h1{
+    font-size: 40px;
+
+}
+h2{
+    font-size: 28px;
+}
+
+.conditions p{
+    font-size: 26px;
+}
+
+
+
+
+@media screen and (max-width: 320px){  
+    .navbar-nav{display: flex;
+        flex-direction: row;
+        align-content: center;
+    }
+.logo{
+    width: 75% !important;
+    height: 2em;
+}
+    li{
+        padding-left: 10px;
+    }
+    span>h1{
+
+        margin:1em auto;
+        text-align: center;
+        font-size: 34px;
+    }
+    .text1 h1 {
+        /* padding-left: 20px; */
+        font-size: 37px;
+        text-align: center;
+    }
+        .text2 h1{
+            text-align: center;
+            padding-right: 0px ;
+            /* padding-right: 45px; */
+        }
+    .text3 h1 {
+        padding-right: 0px;
+        text-align: center;
+        /* padding-right: 170px; */
+    }
+    .firstBlock{
+        margin-bottom: 20em;
+    }
+    .secondBlock{
+        margin-bottom: 20em;
+    }
+    .thirdBlock{
+        margin-bottom: 1em;
+    }
+    #myBtn{
+        width: 30%;
+        margin-top: 1%;
+    }
+    #myBtn1 {
+        width: 30%;
+        margin-top: 1%;
+    }
+    #myBtn2 {
+        width: 30%;
+        margin-top: 1%;
+    }
+    figcaption{
+        height: 360px;
+    }
+   #head h1{
+    font-size: 40px;
+    text-align: center;
+    }
+    #head{
+        padding: 2em 0em 0em 0em;
+    }
+    #admission>.condition>#head h1{
+     font-size: 2em;
+    }
+    .Box1{
+        top:15px
+    }
+    #admission{
+        height: 62em;
+    }
+    .conditions h1, h2 {
+        font-size: 2em;
+        font-family: 'Trebuchet MS', sans-serif;
+        max-width: 100%;
+        text-align: center;
+    }
+    h2{
+        font-size: 22px;
+        font-weight: bolder;
+    }
+    .conditions p {
+        font-size: 17px;
+        padding-left: 1em;
+    }
+    #services{
+        padding: 0;
+    }
+    .service{
+        font-size: 22px;
+        margin-bottom: 2em;
+    }
+    .cost12{
+        height: 20em;
+        font-size: 22px;
+    }
+    .text4>ul{
+        margin-left: 12%;
+    }
+    .text5>ul{
+        margin-left: 12%;
+    }
+    .text6>ul{
+        margin-left: 12%;
+    }
+    ul>li{
+        margin-left: 0;
+        font-size: 18px;
+    }
+    span{
+        margin-left: 2em;
+        font-size: 22px;
+    }
+    .zagolovok{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 425px){  
+ 
+.navbar-nav{display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+.logo{
+width: 75% !important;
+height: 2em;
+}
+li{
+    padding-left: 10px;
+}
+    span>h1{
+
+        margin:1em auto;
+        text-align: center;
+        font-size: 34px;
+    }
+    .text1 h1 {
+        /* padding-left: 20px; */
+        font-size: 37px;
+        text-align: center;
+    }
+        .text2 h1{
+            text-align: center;
+            padding-right: 0px ;
+            /* padding-right: 45px; */
+        }
+    .text3 h1 {
+        padding-right: 0px;
+        text-align: center;
+        /* padding-right: 170px; */
+    }
+    .firstBlock{
+        margin-bottom: 20em;
+    }
+    .secondBlock{
+        margin-bottom: 20em;
+    }
+    .thirdBlock{
+        margin-bottom: 1em;
+    }
+    #myBtn{
+        width: 30%;
+        margin-top: 1%;
+    }
+    #myBtn1 {
+        width: 30%;
+        margin-top: 1%;
+    }
+    #myBtn2 {
+        width: 30%;
+        margin-top: 1%;
+    }
+    figcaption{
+        height: 360px;
+    }
+   #head h1{
+    font-size: 40px;
+    text-align: center;
+    }
+    #head{
+        padding: 2em 0em 0em 0em;
+    }
+    #admission>.condition>#head h1{
+     font-size: 2em;
+    }
+    .Box1{
+        top:15px
+    }
+    #admission{
+        height: 62em;
+    }
+    .conditions h1, h2 {
+        font-size: 2em;
+        font-family: 'Trebuchet MS', sans-serif;
+        max-width: 100%;
+        text-align: center;
+    }
+    h2{
+        font-size: 22px;
+        font-weight: bolder;
+    }
+    .conditions p {
+        font-size: 17px;
+        padding-left: 1em;
+    }
+    #services{
+        padding: 0;
+    }
+    .service{
+        font-size: 22px;
+        margin-bottom: 2em;
+    }
+    .cost12{
+        height: 20em;
+        font-size: 22px;
+    }
+    .text4>ul{
+        margin-left: 12%;
+    }
+    .text5>ul{
+        margin-left: 12%;
+    }
+    .text6>ul{
+        margin-left: 12%;
+    }
+    ul>li{
+        margin-left: 0;
+        font-size: 18px;
+    }
+    span{
+        margin-left: 2em;
+        font-size: 22px;
+    }
+    .zagolovok{
+        font-size: 20px;
+    }
+}
+@media screen  and (min-width:576px){
+    .navbar-nav{display: flex;
+        flex-direction: row;
+        align-content: center;
+    }
+}
+@media screen and (min-width: 768px){  
+   
+.logo{
+    width: 7em !important;
+}
+    
+    .row>.col-12>img{
+        width: 66%;
+    }
+    span>h1{
+
+        margin:1em auto;
+        text-align: center;
+        font-size: 34px;
+    }
+    .text1 h1 {
+        padding-left: 10px;
+        font-size: 37px;
+        text-align: center;
+    }
+        .text2 h1{
+            text-align: center;
+            padding-right: 0px ;
+            /* padding-right: 45px; */
+        }
+    .text3 h1 {
+        padding-right: 0px;
+        text-align: center;
+        /* padding-right: 170px; */
+    }
+    .firstBlock{
+        margin-bottom: 20em;
+    }
+    .secondBlock{
+        margin-bottom: 20em;
+    }
+    .thirdBlock{
+        margin-bottom: 1em;
+    }
+    #myBtn{
+        width: 30%;
+        margin-top: 1%;
+    }
+    #myBtn1 {
+        width: 30%;
+        margin-top: 1%;
+    }
+    #myBtn2 {
+        width: 30%;
+        margin-top: 1%;
+    }
+    figcaption{
+        height: 360px;
+    }
+   #head h1{
+    font-size: 40px;
+    text-align: center;
+    }
+    #head{
+        padding: 2em 0em 0em 0em;
+    }
+    #admission{
+        margin-top: 28em;
+    }
+    #admission>.condition>#head h1{
+     font-size: 2em;
+    }
+    .Box1{
+        top:15px
+    }
+    #admission{
+        height: 62em;
+    }
+    .conditions h1, h2 {
+        font-size: 2em;
+        font-family: 'Trebuchet MS', sans-serif;
+        max-width: 100%;
+        text-align: center;
+    }
+    h2{
+        font-size: 22px;
+        font-weight: bolder;
+    }
+    .conditions p {
+        font-size: 17px;
+        padding-left: 1em;
+    }
+    #services{
+        padding: 0;
+    }
+    .service{
+        font-size: 22px;
+        margin-bottom: 2em;
+    }
+    .cost12{
+        height: 20em;
+        font-size: 22px;
+    }
+    .text4>ul{
+        margin-left: 12%;
+    }
+    .text5>ul{
+        margin-left: 12%;
+    }
+    .text6>ul{
+        margin-left: 12%;
+    }
+    ul>li{
+        margin-left: 0;
+        font-size: 14px;
+        line-height: 3em;
+        font-weight:700;
+    }
+    span{
+        margin-left: 2em;
+        font-size: 22px;
+    }
+    .zagolovok{
+        font-size: 20px;
+    }
+
+    .firstBlock,.secondBlock,.thirdBlock{
+        height: 8em;
+    }
+    #myBtn{
+        margin-top: 30px;
+    }
+
+    #myBtn2{
+        margin-top: 0px;
+    }
+
+    figcaption{
+        height: 35em;
+        
+    }
+}
+@media screen and (min-width: 1024px){
+  
+.logo{
+    width: 6em !important;
+}
+    .row>.col-12>img{
+        width: 66%;
+    }
+    span>h1{
+
+        margin:1em auto;
+        text-align: center;
+        font-size: 34px;
+    }
+    .text1 h1 {
+        padding-left: 10px;
+        font-size: 37px;
+        text-align: center;
+    }
+        .text2 h1{
+            text-align: center;
+            padding-right: 0px ;
+            /* padding-right: 45px; */
+        }
+    .text3 h1 {
+        padding-right: 0px;
+        text-align: center;
+        /* padding-right: 170px; */
+    }
+    .firstBlock{
+        margin-bottom: 20em;
+    }
+    .secondBlock{
+        margin-bottom: 20em;
+    }
+    .thirdBlock{
+        margin-bottom: 1em;
+    }
+    #myBtn{
+        width: 30%;
+        margin-top:0;
+    }
+    #myBtn1 {
+        width: 30%;
+        margin-top: 1%;
+    }
+    #myBtn2 {
+        width: 30%;
+        margin-top: 1%;
+    }
+    figcaption{
+        height: 360px;
+    }
+   #head h1{
+    font-size: 40px;
+    text-align: center;
+    }
+    #head{
+        padding: 2em 0em 0em 0em;
+    }
+    #admission>.condition>#head h1{
+     font-size: 2em;
+    }
+    .Box1{
+        top:15px
+    }
+    #admission{
+        height: 62em;
+    }
+    .conditions h1, h2 {
+        font-size: 2em;
+        font-family: 'Trebuchet MS', sans-serif;
+        max-width: 100%;
+        text-align: center;
+    }
+    h2{
+        font-size: 22px;
+        font-weight: bolder;
+    }
+    .conditions p {
+        font-size: 30px;
+        padding-left: 1em;
+    }
+    #services{
+        padding: 0;
+    }
+    .service{
+        font-size: 22px;
+        margin-bottom: 2em;
+    }
+    .cost12{
+        height: 20em;
+        font-size: 22px;
+    }
+    .text4>ul{
+        margin-left: 12%;
+    }
+    .text5>ul{
+        margin-left: 12%;
+    }
+    .text6>ul{
+        margin-left: 12%;
+    }
+    ul>li{
+        margin-left: 0;
+        font-size: 14px;
+        line-height: 3em;
+        font-weight:700;
+    }
+    span{
+        margin-left: 2em;
+        font-size: 22px;
+    }
+    .zagolovok{
+        font-size: 20px;
+    }
+
+    .firstBlock,.secondBlock,.thirdBlock{
+        height: 8em;
+    }
+    figcaption{
+        height: 30em;
+    }
+}
+
+@media screen and (min-width: 1440px){
+ 
+    .row>.col-12>img{
+        width: 66%;
+    }
+    span>h1{
+
+        margin:1em auto;
+        text-align: center;
+        font-size: 34px;
+    }
+    .text1 h1 {
+        padding-left: 10px;
+        font-size: 37px;
+        text-align: center;
+    }
+        .text2 h1{
+            text-align: center;
+            padding-right: 0px ;
+            /* padding-right: 45px; */
+        }
+    .text3 h1 {
+        padding-right: 0px;
+        text-align: center;
+        /* padding-right: 170px; */
+    }
+    .firstBlock{
+        margin-bottom: 20em;
+    }
+    .secondBlock{
+        margin-bottom: 20em;
+    }
+    .thirdBlock{
+        margin-bottom: 1em;
+    }
+    #myBtn{
+        width: 30%;
+        margin-top: 2%;
+    }
+    #myBtn1 {
+        width: 30%;
+        margin-top: 2%;
+    }
+    #myBtn2 {
+        width: 30%;
+        margin-top: 1%;
+    }
+    figcaption{
+        height: 360px;
+    }
+   #head h1{
+    font-size: 40px;
+    text-align: center;
+    }
+    #head{
+        padding: 2em 0em 0em 0em;
+    }
+    #admission>.condition>#head h1{
+     font-size: 2em;
+    }
+    .Box1{
+        top:15px
+    }
+    #admission{
+        height: 62em;
+    }
+    .conditions h1, h2 {
+        font-size: 2em;
+        font-family: 'Trebuchet MS', sans-serif;
+        max-width: 100%;
+        text-align: center;
+    }
+    h2{
+        font-size: 22px;
+        font-weight: bolder;
+    }
+    .conditions p {
+        font-size: 30px;
+        padding-left: 1em;
+    }
+    #services{
+        padding: 0;
+    }
+    .service{
+        font-size: 22px;
+        margin-bottom: 2em;
+    }
+    .cost12{
+        height: 20em;
+        font-size: 22px;
+    }
+    .text4>ul{
+        margin-left: 12%;
+    }
+    .text5>ul{
+        margin-left: 12%;
+    }
+    .text6>ul{
+        margin-left: 12%;
+    }
+    ul>li{
+        margin-left: 0;
+        font-size: 14px;
+        line-height: 3em;
+        font-weight:700;
+    }
+    span{
+        margin-left: 2em;
+        font-size: 22px;
+    }
+    .zagolovok{
+        font-size: 20px;
+    }
+
+    .firstBlock,.secondBlock,.thirdBlock{
+        height: 8em;
+    }
+    figcaption{
+        height: 30em;
+    }
+}
+
+.anim-show {
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 1s ease 0s;
+}
+.anim-show2 {
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 1s ease 0.3s;
+}
+.anim-show3 {
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 1s ease 0.6s;
+}
+.anim-show.active,
+.active.anim-show {
+    opacity: 1;
+    transform: translate(0px, 0px);
+}
+.anim-show2.active,
+.active.anim-show2 {
+    opacity: 1;
+    transform: translate(0px, 0px);
+}
+.anim-show3.active,
+.active.anim-show {
+    opacity: 1;
+    transform: translate(0px, 0px);
+}
+
+.pulse{
+    background-color: #ffeb01;
+    border-radius: 50%;
+    animation: pulse 0.7s ease-out;
+    transform: scale(0);
+    position: absolute;
+}
+@keyframes pulse{
+    to{
+        transform: scale(2);
+        background-color: white;
+        opacity: 0;
+    }
+}
+
